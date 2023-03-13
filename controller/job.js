@@ -15,5 +15,5 @@ exports.updateJob = async(req, res) => {
 }
 
 exports.deleteJob = async(req, res) => {
-    res.send("delete Job");
+    res.send("delete Jobs");
 }

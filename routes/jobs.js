@@ -4,7 +4,7 @@ const router = express.Router();
 const jobsController= require("../controller/job");
 
 
-router.get("/",jobsController.getAllJobs);
+router.get("/",jobsController.getALlJobs);
 
 router.get("/:id",jobsController.getJob);
 

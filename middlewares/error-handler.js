@@ -8,3 +8,5 @@ if(err instanceof CustomAPIError) {
 }
 return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({ err });
 }
+
+module.exports = errorHandlerMiddleware;
